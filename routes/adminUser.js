@@ -8,3 +8,4 @@ const router = express.Router();
 router.post('/add-user', adminController.postAddUser);
 
 module.exports = router;
+
