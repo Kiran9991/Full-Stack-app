@@ -15,6 +15,7 @@ app.use('/',(req, res) => {
     res.send('Welcome to Home page')
 })
 
+
 sequelize.sync().then(result => {
     // console.log(result);
 }).catch(err => {
