@@ -23,3 +23,5 @@ sequelize.sync().then(result => {
 
 app.listen(5000);
 
+
+
