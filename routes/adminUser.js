@@ -1,12 +1,16 @@
-const express = require('express');
+// const express = require('express');
 
-const adminController = require('../controllers/user')
+// const adminController = require('../controllers/user')
 
-const router = express.Router();
+// const router = express.Router();
 
-//Post request
-router.post('/add-user', adminController.postAddUser);
+// router.get('/users')
+// // 
+// //Post request
+// router.post('/user/add-user', adminController.postAddUser);
 
-module.exports = router;
+// router.get('/user/get-users', adminController.getAddUser);
+
+// module.exports = router;
 
 
